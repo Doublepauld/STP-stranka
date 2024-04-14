@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Alkhemikal;
+    src: url(fonts/Alkhemikal.ttf);
+}
+@font-face {
+    font-family: Bebas;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Bebas;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Alkhemikal;
+    font-size: 80px;
+}
+nav {
+    background-color: #2b2929;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: alkhemikal;
+    font-size: x-large;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+    text-align: justify;
+}
+
+.icon {
+    float: left; 
+    margin: 0 20px 20px 0; 
+}
+
+.icon img {
+    width: 110px; 
+    height: auto; 
+    border-radius: 100px; 
+    background-color: #000000;
+}
+
+
+
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: alkhemikal;
+
+    
+}
+.first-h2 {
+    text-align: center;
+    padding-right: 110px;
+}
+.container-button{
+    display: flex;
+    gap: 18em;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.container-button p{
+    text-align: center;
+    font-size: x-large;
+    font-family: Bebas;
+}
+
+.container-button button{
+    background-image: url(dan-images-xd/output-onlinegiftools.gif); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border: none; 
+    color: rgba(255, 255, 255, 0.822); 
+    font-family: alkhemikal; 
+    font-size: 40px; 
+    padding: 90px 130px; 
+    cursor: pointer; 
+    outline: none; 
+    border-radius: 30px;
+}
+
+
+
+
+.button-with-image:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+
+h3{
+    font-family: alkhemikal;
+    font-size: 30px;
+}
+
+.Monsters{
+    display: flex;
+    font-family: alkhemikal;
+    font-size: 25px;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Monsters p{
+    font-family: Bebas;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Spells{
+    display: flex;
+    font-family: alkhemikal;
+    font-size: 25px;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Spells p{
+    font-family: Bebas;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.Skill-particles{
+    display: flex;
+    font-family: alkhemikal;
+    font-size: 25px;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Skill-particles p{
+    font-family: Bebas;
+    font-size: 18px;
+    text-align: center;
+}
