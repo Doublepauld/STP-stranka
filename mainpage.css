@@ -141,7 +141,7 @@ h3{
     text-align: center;
     
 }
-.Skill-particles{
+.World-textures{
     display: flex;
     font-family: alkhemikal;
     font-size: 25px;
@@ -149,7 +149,21 @@ h3{
     text-align: center;
     padding-bottom: 50px;
 }
-.Skill-particles p{
+.World-textures p{
+    font-family: Bebas;
+    font-size: 18px;
+    text-align: center;
+}
+
+.weapon{
+    display: flex;
+    font-family: alkhemikal;
+    font-size: 25px;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.weapon p{
     font-family: Bebas;
     font-size: 18px;
     text-align: center;
