@@ -119,6 +119,12 @@ h3{
     justify-content: space-around;
     text-align: center;
     padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.monster{
+    flex: 1 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
 }
 .Monsters p{
     font-family: Bebas;
@@ -130,9 +136,14 @@ h3{
     display: flex;
     font-family: alkhemikal;
     font-size: 25px;
-    justify-content: space-around;
     text-align: center;
     padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.spell{
+    flex: 1 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .Spells p{
@@ -148,6 +159,12 @@ h3{
     justify-content: space-around;
     text-align: center;
     padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.world{
+    flex: 1 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
 }
 .World-textures p{
     font-family: Bebas;
@@ -162,9 +179,15 @@ h3{
     justify-content: space-around;
     text-align: center;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 .weapon p{
     font-family: Bebas;
     font-size: 18px;
     text-align: center;
+}
+.mec{
+    flex: 1 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
 }
